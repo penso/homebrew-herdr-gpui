@@ -7,7 +7,7 @@ cask "arbor" do
   desc "Desktop Git worktree manager"
   homepage "https://github.com/penso/arbor"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Arbor.app"
 
